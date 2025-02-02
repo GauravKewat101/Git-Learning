@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    height: 90vh;
+    width: 97vw;
+    margin: 1rem;
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 98, 98);
+}
+
+.container{
+    height:50%;
+    width: 70%;
+    border-radius: 1rem;
+    background-color: rgb(183, 212, 115);
+}
+
+button{
+    height: 2rem;
+    width: 6rem;
+    color: white;
+    border: none;
+    margin: 1rem 0px;
+    padding: 1px 2px;
+    border-radius: 1rem;
+    background-color: rgb(68, 78, 104);
+}
+
+button:hover{
+    background-color: rgb(45, 62, 105) ;
+}
+
+.head{
+    color: black;
+    padding: 1rem 0px;
+    text-align: center;
+}
+
+.content{
+    padding: 1rem;
+    text-align: center;
+}
+
+.anuvad{
+    
+    text-align: center;
+}
+
+.translation{
+    /* width: 80%; */
+    text-align: center;
+    padding: 1rem 3rem;
+}
